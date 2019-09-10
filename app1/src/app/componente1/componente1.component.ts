@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class Componente1Component implements OnInit {
   public correo : string;
   public password : string;
+  public saludar(){
+    
+  }
   constructor() { }
 
   ngOnInit() {
